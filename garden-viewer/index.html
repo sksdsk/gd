@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#203e37"><title>武汉庭院 · 现状核对</title><meta name="description" content="两座庭院与侧通道的现状三维草模。逐项核对影像依据、假设尺寸与待补测内容。"><link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23203e37'/%3E%3Cpath d='M8 9v23h24V9h-6v17H14V9z' fill='%23e5ece2'/%3E%3C/svg%3E"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><a class="brand" href="./"><span class="brandmark">庭</span><span>武汉庭院 <small>EXISTING SITE / R0</small></span></a><a class="report-link" href="docs/review.html" target="_blank" rel="noopener">查看核对说明 ↗</a></header>
+<div class="notice"><b>几何核对版</b><span>25 × 10 m 的范围待确认；其余尺寸是草模估值。这里尚未加入新花园设计。</span></div>
+<main>
+ <section class="workspace" aria-label="现状三维模型">
+  <div class="toolbar"><div class="views" aria-label="查看区域"><button class="active" data-view="all">全貌</button><button data-view="top">俯视</button><button data-view="zone1">种植池院</button><button data-view="zone2">裸土院</button><button data-view="passage">侧通道</button></div><button id="reset" title="恢复初始视角">复位</button></div>
+  <div id="viewport"><div id="labels"></div><div id="loading" role="status">正在载入现状模型…</div><div id="failure" hidden><p>当前浏览器未能打开三维模型。</p><p>请使用支持 WebGL 2 的浏览器，或查看下方俯视图。</p><img src="assets/plan.svg" alt="带假设尺寸的现状俯视示意图"><a href="models/existing-site.glb" download>下载模型</a></div><div class="canvas-caption"><b>空间连接已核对 · 尺寸未校准</b><span>单指／左键旋转 · 双指缩放、平移</span></div><div class="light-note">灯光仅为看清体量，不代表实际日照</div></div>
+  <div class="switches"><label><input type="checkbox" id="full-building">建筑全高占位</label><label><input type="checkbox" id="vegetation" checked>现有植物占位</label><label><input type="checkbox" id="annotations" checked>核对标记</label><label><input type="checkbox" id="shadows">示意阴影</label><a href="models/existing-site.glb" download>下载现状 GLB ↓</a></div>
+ </section>
+ <aside class="inspector">
+  <div class="inspector-title"><span>逐项核对</span><span class="ordinal">01—12</span></div>
+  <label class="select-label" for="feature-select">选择区域或构件</label><select id="feature-select" aria-label="选择需要核对的构件"></select>
+  <article id="feature-details" aria-live="polite"></article>
+  <div class="legend"><span><i class="solid"></i>影像支持：构件存在、连接关系</span><span><i class="dashed"></i>估值：长度、宽度、高度、具体位置</span></div>
+  <details class="review-request" open><summary>优先补充的 3 项</summary><ol><li>在俯视照片上画出 <b>25 m、10 m</b> 各自的两端，并标北。</li><li>两院各自长宽；侧通道最窄净宽。</li><li>两池分别的长、宽、高，以及池间、池到墙的净距。</li></ol><a href="assets/measurement-sheet.svg" target="_blank">打开可标注尺寸底图 ↗</a></details>
+ </aside>
+</main>
+<section class="evidence"><div class="section-title"><h2>影像依据</h2><span>13 张照片 · 57 秒视频</span></div><div class="evidence-grid"><a href="assets/evidence-planter.jpg" target="_blank"><img src="assets/evidence-planter.jpg" alt="照片：两座平行水泥种植池与院门" loading="lazy"><span>种植池院 · 两池、红砖、门口硬路</span></a><a href="assets/evidence-passage.jpg" target="_blank"><img src="assets/evidence-passage.jpg" alt="视频34秒：沿山墙的侧通道和拱架" loading="lazy"><span>视频约 34 秒 · 侧通道与现有拱架</span></a><a href="assets/evidence-bare.jpg" target="_blank"><img src="assets/evidence-bare.jpg" alt="视频12秒：裸土院、围栏和地面格栅" loading="lazy"><span>视频约 12 秒 · 裸土院与格栅</span></a><a href="assets/evidence-aerial.jpg" target="_blank"><img src="assets/evidence-aerial.jpg" alt="航拍：院地绕建筑端部的连接关系，日期未核实" loading="lazy"><span>较早阶段待核实 · 航拍连接关系</span></a></div></section>
+<footer><span>R0 的任务是核对现状。A / B / C 方案、植物与生长年份将在几何确认后加入。</span><a href="docs/review.html">依据与假设清单 ↗</a></footer>
+<script type="module" src="main.js"></script><noscript><p>请启用 JavaScript 以使用三维查看器。<a href="docs/review.html">现状说明和俯视图</a>也可直接阅读。</p></noscript>
+</body></html>

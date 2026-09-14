@@ -1,0 +1,179 @@
+{
+  "revision": "R0 · geometry review",
+  "units": "metres",
+  "status": "PROVISIONAL — NOT A SURVEY OR FINAL LANDSCAPE DESIGN",
+  "coordinateNote": "X runs from the planter courtyard toward the bare courtyard. Z runs from the side fence toward the internal courtyard dividing fences. These are model axes, not compass bearings.",
+  "dimensions": {
+    "envelopeLength": 25,
+    "envelopeWidth": 10,
+    "planterCourtDepth": 5.5,
+    "bareCourtDepth": 4.5,
+    "sideStripWidth": 2.1,
+    "buildingHeight": 12.8,
+    "bedLength": 4.8,
+    "bedWidth": 1.08,
+    "bedHeight": 0.55,
+    "bedGap": 0.48,
+    "pathSlabWidth": 0.62,
+    "pathSlabLength": 0.62
+  },
+  "dimensionStatus": {
+    "envelopeLength": "user supplied 25 m; endpoints and scope unresolved",
+    "envelopeWidth": "user supplied 10 m; endpoints and scope unresolved",
+    "allOtherValues": "visual modelling assumptions; unmeasured; do not order or construct from these values"
+  },
+  "north": null,
+  "groundLevels": "Flattened for R0. Actual slopes, steps, thresholds and drain invert levels not measured.",
+  "chronology": "Video used for continuity and visible current hardscape. Aerial and bare-plot photos appear to show an earlier state; dates unverified.",
+  "features": {
+    "zone1": {
+      "title": "01 · 有种植池的院子",
+      "confidence": "空间关系较高 / 尺寸低",
+      "observation": "两座平行水泥高池、池间与周边红砖路、门口灰色硬路、围栏及院门。池长轴沿通道前进方向延续，院门在正对房屋一侧的外围界。",
+      "assumption": "暂作主院候选；5.5 m 深 × 10 m 宽仅用于拼合草模，25 × 10 的范围未确认。",
+      "resolve": "测外墙到外侧围栏距离、院子沿墙宽度；在俯视图标出25 m与10 m的两端。",
+      "sources": [
+        "ca9a49bbb4de96df32192650cb722010.jpeg",
+        "7382_raw.mp4 00:38–00:57"
+      ]
+    },
+    "zone2": {
+      "title": "02 · 裸土／草地院子",
+      "confidence": "空间关系较高 / 尺寸低",
+      "observation": "面向带阳台与大玻璃开口的立面；有围栏、院门或门洞及地面格栅口。",
+      "assumption": "4.5 m 深 × 10 m 宽是草模值；边界是否局部偏折待确认。",
+      "resolve": "院子两方向尺寸、门的位置、地面格栅到两条边界的距离。",
+      "sources": [
+        "631.jpeg",
+        "632.jpeg",
+        "638.jpeg",
+        "639.jpeg",
+        "639(1).jpeg",
+        "640.jpeg",
+        "644.jpeg",
+        "7381.jpeg",
+        "7382_raw.mp4 00:00–00:28"
+      ]
+    },
+    "passage": {
+      "title": "03 · 侧通道",
+      "confidence": "连接关系高 / 净宽低",
+      "observation": "沿山墙连接两院；方形踏步、碎石、窄种植带；局部已有金属拱架，墙上有百叶。",
+      "assumption": "全长暂取15 m、围栏到墙2.1 m；不是实测净通行宽。台阶、碎石及拱架数量简化。",
+      "resolve": "最窄处围栏到墙、踏步宽、凸柱和百叶位置；确认拱架是否保留。",
+      "sources": [
+        "645.jpeg",
+        "7382_raw.mp4 00:18–00:21; 00:28–00:40"
+      ]
+    },
+    "architecture": {
+      "title": "建筑轮廓与开口",
+      "confidence": "存在性高 / 外形与位置低",
+      "observation": "浅色石材感外墙、深灰窗框、外凸柱、上层阳台、百叶与外露管线。",
+      "assumption": "主体15 × 7.9 × 12.8 m是占位体量；背面和内部未重建。只示意辨认到的开口，不复制推测的窗格。",
+      "resolve": "首层平面或沿墙尺寸串、层高、门窗宽高与距墙角位置。",
+      "sources": [
+        "1517.jpeg",
+        "631.jpeg",
+        "632.jpeg",
+        "644.jpeg",
+        "645.jpeg",
+        "3ffe9ae3d999737e4a432c0c67064fc8.jpeg",
+        "7382_raw.mp4"
+      ]
+    },
+    "bed1": {
+      "title": "P1 · 靠围栏的水泥种植池",
+      "confidence": "存在性高 / 尺寸低",
+      "observation": "两座池中靠侧边围栏的一座，狭长矩形；长轴沿通道前进方向延续，四边池壁可见。现种菜及搭支架。",
+      "assumption": "外尺寸暂4.8 × 1.08 × 0.55 m；壁厚0.12 m。未建池底，不假定有混凝土底板。",
+      "resolve": "外长、外宽、外高、壁厚、实际土深、底部是否通土、出水口。",
+      "sources": [
+        "ca9a49bbb4de96df32192650cb722010.jpeg",
+        "7382_raw.mp4 00:40–00:45"
+      ]
+    },
+    "bed2": {
+      "title": "P2 · 靠院子内侧的水泥种植池",
+      "confidence": "存在性高 / 尺寸低",
+      "observation": "第二座狭长水泥池，中间有红砖窄道。",
+      "assumption": "暂与P1同尺寸；池间净距0.48 m是视觉估值。两池是否同长同高未确认。",
+      "resolve": "独立量取P2；量池间净距、池到外墙距离及靠门端通道。",
+      "sources": [
+        "ca9a49bbb4de96df32192650cb722010.jpeg",
+        "7382_raw.mp4 00:42–00:45"
+      ]
+    },
+    "paving": {
+      "title": "现有铺装",
+      "confidence": "材料类别较高 / 边界低",
+      "observation": "红砖为主、夹少量蓝灰砖；侧通道浅灰方板＋碎石；门口另有灰色硬路。",
+      "assumption": "拼缝、砖块规格、灰路边界和铺装厚度为示意；未把裸土画成新增铺装。",
+      "resolve": "确认哪些材料一定保留；测一块砖／方板及各段路宽。",
+      "sources": [
+        "ca9a49bbb4de96df32192650cb722010.jpeg",
+        "1517.jpeg",
+        "7382_raw.mp4 00:28–00:57"
+      ]
+    },
+    "boundary": {
+      "title": "围栏、矮墙与院门",
+      "confidence": "存在性高 / 精确位置低",
+      "observation": "主体是通透金属栏杆；种植池院的入口局部有浅色实墙及棕色门。围栏外可见公共步道与绿化。",
+      "assumption": "围栏高暂1.35 m，门洞约1.1 m；栏杆数量、围界直角化和门扇开启角度为示意。",
+      "resolve": "围栏高、院门净宽和开启方向；确认围栏外植物的归属。",
+      "sources": [
+        "638.jpeg",
+        "640.jpeg",
+        "644.jpeg",
+        "ca9a49bbb4de96df32192650cb722010.jpeg",
+        "7382_raw.mp4"
+      ]
+    },
+    "drain": {
+      "title": "可见格栅口／待核实排水点",
+      "confidence": "可见口较高 / 排水路径未知",
+      "observation": "裸土院靠围栏可见一个矩形格栅；墙面可见竖向管。",
+      "assumption": "模型位置只是定位提示，不代表已找到所有排水口；不绘制地下管或坡向。",
+      "resolve": "格栅近照、口到墙距离、雨后积水照片、落水管去向、门槛和排水口标高。",
+      "sources": [
+        "1a3cb6ae9367229d4565024e9307a162.jpeg",
+        "638.jpeg",
+        "7382_raw.mp4 00:12–00:16; 00:54–00:57"
+      ]
+    },
+    "services": {
+      "title": "外墙设施与灰色挡板",
+      "confidence": "存在性高 / 功能部分未知",
+      "observation": "百叶、白色竖管、黄色管线、较低位置的灰色板件及向外开启窗。",
+      "assumption": "黄色管线用途未核实；灰色板件不能直接当杂物删除。仅建可见示意，不推定管线内部功能。",
+      "resolve": "近照确认用途、检修空间及窗扇完整开启范围。",
+      "sources": [
+        "1517.jpeg",
+        "631.jpeg",
+        "632.jpeg",
+        "7382_raw.mp4 00:46–00:57"
+      ]
+    },
+    "arch": {
+      "title": "现有轻型金属拱架",
+      "confidence": "存在性高 / 尺寸与数量低",
+      "observation": "通道末段上方已有弧形金属架。",
+      "assumption": "草模仅用三组弧形杆表示，数量与连接细节未核实；这是现状构件，不是新增凉棚。",
+      "resolve": "拱架数量、净高、固定方式，以及是否希望保留。",
+      "sources": [
+        "7382_raw.mp4 00:30–00:40"
+      ]
+    },
+    "vegetation": {
+      "title": "现有植物占位",
+      "confidence": "覆盖位置中 / 品种未知",
+      "observation": "池内菜作、通道攀援植物、地面自生植物；围栏外有较大树木和灌木。",
+      "assumption": "绿色低体量仅标示现有覆盖，不代表新种植设计或已识别品种。模型不把可移动盆栽当永久构件。",
+      "resolve": "希望保留的植物单独圈出并拍叶、树干、全株；说明围栏内外归属。",
+      "sources": [
+        "全部照片及视频"
+      ]
+    }
+  }
+}
