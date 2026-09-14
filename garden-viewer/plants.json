@@ -1,0 +1,329 @@
+{
+  "OS": {
+    "name": "桂花",
+    "en": "Sweet osmanthus",
+    "botanical": "Osmanthus fragrans",
+    "kind": "tree",
+    "evergreen": true,
+    "color": "#3e6240",
+    "mature": "自然常达 3–6 m 或更高；本案控制高 3–4 m、冠幅 3–3.5 m",
+    "flower": "约9–10月；品种、气温影响明显",
+    "light": "日照至半日照；酷热暴晒处需水分保障",
+    "water": "前两年根球保持均匀湿润；成活后旱热期深灌，忌积水",
+    "care": "花后选择性疏枝；保留自然冠形，检查介壳虫。不是每年截顶的小球。",
+    "spacing": 3.5,
+    "stock": "高1.8–2.0 m，冠0.9–1.2 m，健康容器苗/土球苗",
+    "sizes": {
+      "1": [
+        2,
+        1.1
+      ],
+      "3": [
+        2.7,
+        2.1
+      ],
+      "5": [
+        3.3,
+        3
+      ]
+    },
+    "bloom": [
+      "autumn"
+    ],
+    "source": "https://plants.ces.ncsu.edu/plants/osmanthus-fragrans/"
+  },
+  "CA": {
+    "name": "白花茶梅",
+    "en": "White sasanqua camellia",
+    "botanical": "Camellia sasanqua",
+    "kind": "shrub",
+    "evergreen": true,
+    "color": "#355b42",
+    "mature": "品种可达 2–4 m 以上；本案控制高 2–2.5 m、冠幅约2 m",
+    "flower": "约11月至翌年2月，选定品种后细化；不是单株连续开花五个月",
+    "light": "半阴、明亮散射光；避西晒和干冷风",
+    "water": "中等；微酸性疏松土，保湿但不涝",
+    "care": "花后轻疏，勿秋季齐剪花芽；巡查介壳虫、根腐及花腐。先测土壤pH。",
+    "spacing": 2.1,
+    "stock": "高0.9–1.2 m、冠0.6–0.8 m；本地露地越冬的白花苗",
+    "sizes": {
+      "1": [
+        1.1,
+        0.75
+      ],
+      "3": [
+        1.7,
+        1.35
+      ],
+      "5": [
+        2.2,
+        1.95
+      ]
+    },
+    "bloom": [
+      "winter"
+    ],
+    "source": "https://plants.ces.ncsu.edu/plants/camellia-sasanqua/"
+  },
+  "AB": {
+    "name": "大花六道木",
+    "en": "Glossy abelia",
+    "botanical": "Abelia × grandiflora",
+    "kind": "shrub",
+    "evergreen": false,
+    "color": "#60804b",
+    "mature": "普通类型高约1–2.5 m、冠1.5–2.5 m；本案疏枝控制在1.2–1.5 m",
+    "flower": "约5–10月，零续开花",
+    "light": "日照至半日照；太阴花少",
+    "water": "中低；首年规律检查，成活后旱时补水",
+    "care": "冬季可能落叶或冻梢，不能独担冬季隐私；早春疏老枝，保留拱垂形。",
+    "spacing": 1.5,
+    "stock": "高0.4–0.6 m、冠0.35–0.5 m，绿叶型",
+    "sizes": {
+      "1": [
+        0.6,
+        0.5
+      ],
+      "3": [
+        1.05,
+        1.05
+      ],
+      "5": [
+        1.4,
+        1.5
+      ]
+    },
+    "bloom": [
+      "summer",
+      "autumn"
+    ],
+    "source": "https://plants.ces.ncsu.edu/plants/abelia-x-grandiflora/"
+  },
+  "HY": {
+    "name": "白花大叶绣球",
+    "en": "Bigleaf hydrangea",
+    "botanical": "Hydrangea macrophylla",
+    "kind": "shrub",
+    "evergreen": false,
+    "color": "#65834c",
+    "mature": "高、冠幅各约1–1.8 m；本案冠幅控制约1.2 m",
+    "flower": "约5–7月，具体依品种",
+    "light": "北院半阴；避下午热晒",
+    "water": "中高；本案用量少，独立滴灌分区；不可常年涝根",
+    "care": "老枝开花类型花后轻剪，冬季勿一律齐根剪；雨季通风，留意叶斑、白粉病。白花不承诺随pH变蓝。",
+    "spacing": 1.4,
+    "stock": "冠0.35–0.45 m，白花类型",
+    "sizes": {
+      "1": [
+        0.5,
+        0.45
+      ],
+      "3": [
+        0.9,
+        0.95
+      ],
+      "5": [
+        1.2,
+        1.2
+      ]
+    },
+    "bloom": [
+      "summer"
+    ],
+    "source": "https://plants.ces.ncsu.edu/plants/hydrangea-macrophylla/"
+  },
+  "LI": {
+    "name": "白花矮紫薇 Acoma",
+    "en": "Acoma crape myrtle",
+    "botanical": "Lagerstroemia 'Acoma'",
+    "kind": "tree",
+    "evergreen": false,
+    "color": "#61804f",
+    "mature": "约3 m高、3–3.5 m冠幅；不同于7–10 m的大型紫薇品种",
+    "flower": "约6–9月；盛花随天气变化",
+    "light": "南院日照充足位置，先核实实际遮阴",
+    "water": "中等；成活后耐短旱，热旱期深灌",
+    "care": "选抗白粉病品种仍需通风；冬季只疏交叉枝，禁止“砍头”。Acoma本地库存尚未确认。",
+    "spacing": 3.5,
+    "stock": "高1.5–1.8 m、冠0.7–1 m，多干型",
+    "sizes": {
+      "1": [
+        1.7,
+        1
+      ],
+      "3": [
+        2.35,
+        2
+      ],
+      "5": [
+        2.85,
+        3.2
+      ]
+    },
+    "bloom": [
+      "summer"
+    ],
+    "source": "https://landscapeplants.oregonstate.edu/plants/lagerstroemia-acoma"
+  },
+  "AS": {
+    "name": "一叶兰",
+    "en": "Cast-iron plant",
+    "botanical": "Aspidistra elatior",
+    "kind": "leaf",
+    "evergreen": true,
+    "color": "#315f46",
+    "mature": "高0.45–0.8 m，丛幅0.5–0.8 m",
+    "flower": "花贴近地面，不作为观花配置",
+    "light": "半阴至阴；不要放在无遮蔽的强直射阳光下",
+    "water": "中低；首年保湿，成活后较耐旱，排水良好",
+    "care": "剪老损叶，数年后拥挤才分株；避免强光灼伤与冬季干冷风。",
+    "spacing": 0.6,
+    "stock": "每盆3–5片健康叶，15–20 cm容器",
+    "sizes": {
+      "1": [
+        0.4,
+        0.28
+      ],
+      "3": [
+        0.55,
+        0.5
+      ],
+      "5": [
+        0.65,
+        0.65
+      ]
+    },
+    "bloom": [],
+    "source": "https://plants.ces.ncsu.edu/plants/aspidistra-elatior/"
+  },
+  "LM": {
+    "name": "阔叶山麦冬",
+    "en": "Big blue lilyturf",
+    "botanical": "Liriope muscari",
+    "kind": "grass",
+    "evergreen": true,
+    "color": "#456c43",
+    "mature": "高、丛幅约0.3–0.45 m",
+    "flower": "约7–9月，紫色花穗",
+    "light": "日照至半阴；深阴能活但生长、开花减弱",
+    "water": "中低；第一年保湿，成活后旱时浇透，忌冠部积水",
+    "care": "早春新叶萌发前可清理旧叶；3–5年拥挤时分株。采购丛生种，不误买蔓生近缘种。",
+    "spacing": 0.4,
+    "stock": "10–12 cm容器苗，每丛3芽以上",
+    "sizes": {
+      "1": [
+        0.22,
+        0.2
+      ],
+      "3": [
+        0.35,
+        0.36
+      ],
+      "5": [
+        0.4,
+        0.44
+      ]
+    },
+    "bloom": [
+      "summer"
+    ],
+    "source": "https://plants.ces.ncsu.edu/plants/liriope-muscari/"
+  },
+  "IT": {
+    "name": "鸢尾",
+    "en": "Roof iris",
+    "botanical": "Iris tectorum",
+    "kind": "iris",
+    "evergreen": false,
+    "color": "#618265",
+    "mature": "叶高0.3–0.45 m，花茎可稍高；丛幅约0.3–0.45 m",
+    "flower": "约4–5月，淡紫",
+    "light": "日照至半阴，通风，排水顺畅",
+    "water": "中低；不可将陆生鸢尾当水生植物",
+    "care": "根茎浅栽、勿厚埋；花后剪残梗，3年左右分株，检查蜗牛和烂根。冬季叶况随低温变化。",
+    "spacing": 0.4,
+    "stock": "2–3芽健壮分株或容器苗",
+    "sizes": {
+      "1": [
+        0.25,
+        0.2
+      ],
+      "3": [
+        0.4,
+        0.35
+      ],
+      "5": [
+        0.42,
+        0.42
+      ]
+    },
+    "bloom": [
+      "spring"
+    ],
+    "source": "https://plants.ces.ncsu.edu/plants/iris-tectorum/"
+  },
+  "TJ": {
+    "name": "络石",
+    "en": "Star jasmine",
+    "botanical": "Trachelospermum jasminoides",
+    "kind": "climber",
+    "evergreen": true,
+    "color": "#3c6949",
+    "mature": "未经管理可攀至6 m；本案限高1.8–2 m、单株宽约1.5 m",
+    "flower": "约4–6月，白花",
+    "light": "日照至半阴；阴处开花减少",
+    "water": "中等；前两年规律检查，成活后旱时补水",
+    "care": "仅牵引指定小段，花后及夏末整理；避开窗、百叶、管线；支撑及围栏抗风荷载须核实。",
+    "spacing": 1.5,
+    "stock": "藤长0.8–1 m、3 L以上容器苗",
+    "sizes": {
+      "1": [
+        1,
+        0.45
+      ],
+      "3": [
+        1.8,
+        1.15
+      ],
+      "5": [
+        1.9,
+        1.5
+      ]
+    },
+    "bloom": [
+      "spring"
+    ],
+    "source": "https://plants.ces.ncsu.edu/plants/trachelospermum-jasminoides/"
+  },
+  "ZJ": {
+    "name": "结缕草",
+    "en": "Japanese lawn grass",
+    "botanical": "Zoysia japonica",
+    "kind": "turf",
+    "evergreen": false,
+    "color": "#849260",
+    "mature": "草坪养护高度约3–5 cm；面积计量",
+    "flower": "不作为观花植物",
+    "light": "优先日照充足；先连续记录，目标至少约5–6小时直射光，非硬性保证",
+    "water": "成坪前浅根区持续监测；成坪后旱时深灌，勿每日固定喷洒",
+    "care": "生长季按1/3原则修剪，通常约7–14天检查一次；冬季休眠变稻草色，不冬播黑麦草。",
+    "spacing": 0,
+    "stock": "适季铺健康草皮，不是全年常绿草毯",
+    "sizes": {
+      "1": [
+        0.045,
+        1
+      ],
+      "3": [
+        0.045,
+        1
+      ],
+      "5": [
+        0.045,
+        1
+      ]
+    },
+    "bloom": [],
+    "source": "https://content.ces.ncsu.edu/zoysiagrass-lawn-maintenance-calendar"
+  }
+}

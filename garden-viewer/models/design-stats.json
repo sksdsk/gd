@@ -1,0 +1,74 @@
+[
+  {
+    "file": "design-A-year1.glb",
+    "design": "A",
+    "year": 1,
+    "bytes": 4884812,
+    "triangles": 68116,
+    "meshes": 126
+  },
+  {
+    "file": "design-A-year3.glb",
+    "design": "A",
+    "year": 3,
+    "bytes": 4884752,
+    "triangles": 68116,
+    "meshes": 126
+  },
+  {
+    "file": "design-A-year5.glb",
+    "design": "A",
+    "year": 5,
+    "bytes": 4884828,
+    "triangles": 68116,
+    "meshes": 126
+  },
+  {
+    "file": "design-B-year1.glb",
+    "design": "B",
+    "year": 1,
+    "bytes": 4706376,
+    "triangles": 65779,
+    "meshes": 116
+  },
+  {
+    "file": "garden.glb",
+    "design": "B",
+    "year": 3,
+    "bytes": 4706308,
+    "triangles": 65779,
+    "meshes": 116
+  },
+  {
+    "file": "design-B-year5.glb",
+    "design": "B",
+    "year": 5,
+    "bytes": 4706372,
+    "triangles": 65779,
+    "meshes": 116
+  },
+  {
+    "file": "design-C-year1.glb",
+    "design": "C",
+    "year": 1,
+    "bytes": 4657108,
+    "triangles": 63386,
+    "meshes": 120
+  },
+  {
+    "file": "design-C-year3.glb",
+    "design": "C",
+    "year": 3,
+    "bytes": 4657004,
+    "triangles": 63386,
+    "meshes": 120
+  },
+  {
+    "file": "design-C-year5.glb",
+    "design": "C",
+    "year": 5,
+    "bytes": 4657092,
+    "triangles": 63386,
+    "meshes": 120
+  }
+]

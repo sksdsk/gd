@@ -1,0 +1,76 @@
+{
+  "checks": "GLB 2.0 decoded using Three.js; finite geometry; 10m architectural footprint; planter alternatives; plant coordinates and counts; embedded resources",
+  "browserOrDeviceTests": false,
+  "models": [
+    {
+      "file": "design-A-year1.glb",
+      "bytes": 4884812,
+      "triangles": 68116,
+      "plantGroups": 20,
+      "status": "passed"
+    },
+    {
+      "file": "design-A-year3.glb",
+      "bytes": 4884752,
+      "triangles": 68116,
+      "plantGroups": 20,
+      "status": "passed"
+    },
+    {
+      "file": "design-A-year5.glb",
+      "bytes": 4884828,
+      "triangles": 68116,
+      "plantGroups": 20,
+      "status": "passed"
+    },
+    {
+      "file": "design-B-year1.glb",
+      "bytes": 4706376,
+      "triangles": 65779,
+      "plantGroups": 18,
+      "status": "passed"
+    },
+    {
+      "file": "design-B-year5.glb",
+      "bytes": 4706372,
+      "triangles": 65779,
+      "plantGroups": 18,
+      "status": "passed"
+    },
+    {
+      "file": "design-C-year1.glb",
+      "bytes": 4657108,
+      "triangles": 63386,
+      "plantGroups": 21,
+      "status": "passed"
+    },
+    {
+      "file": "design-C-year3.glb",
+      "bytes": 4657004,
+      "triangles": 63386,
+      "plantGroups": 21,
+      "status": "passed"
+    },
+    {
+      "file": "design-C-year5.glb",
+      "bytes": 4657092,
+      "triangles": 63386,
+      "plantGroups": 21,
+      "status": "passed"
+    },
+    {
+      "file": "existing-site.glb",
+      "bytes": 1451232,
+      "triangles": 21492,
+      "plantGroups": 0,
+      "status": "passed"
+    },
+    {
+      "file": "garden.glb",
+      "bytes": 4706308,
+      "triangles": 65779,
+      "plantGroups": 18,
+      "status": "passed"
+    }
+  ]
+}

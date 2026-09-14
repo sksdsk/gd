@@ -1,13 +1,13 @@
 {
-  "revision": "R0 · geometry review",
+  "revision": "R1 · measured envelope / concept design",
   "units": "metres",
-  "status": "PROVISIONAL — NOT A SURVEY OR FINAL LANDSCAPE DESIGN",
-  "coordinateNote": "X runs from the planter courtyard toward the bare courtyard. Z runs from the side fence toward the internal courtyard dividing fences. These are model axes, not compass bearings.",
+  "status": "CONCEPT — annotated dimensions + explicit proxies; not construction survey",
+  "coordinateNote": "Metres, Y up. +X = south, +Z = west; north is left and east is top on plans. Origin: north/east fence corner.",
   "dimensions": {
     "envelopeLength": 25,
     "envelopeWidth": 10,
-    "planterCourtDepth": 5.5,
-    "bareCourtDepth": 4.5,
+    "planterCourtDepth": 7,
+    "bareCourtDepth": 8,
     "sideStripWidth": 2.1,
     "buildingHeight": 12.8,
     "bedLength": 4.8,
@@ -15,34 +15,47 @@
     "bedHeight": 0.55,
     "bedGap": 0.48,
     "pathSlabWidth": 0.62,
-    "pathSlabLength": 0.62
+    "pathSlabLength": 0.62,
+    "planterApronDepth": 4,
+    "mainRouteWidth": 1.6,
+    "mainRouteZ": 7.8
   },
   "dimensionStatus": {
-    "envelopeLength": "user supplied 25 m; endpoints and scope unresolved",
-    "envelopeWidth": "user supplied 10 m; endpoints and scope unresolved",
-    "allOtherValues": "visual modelling assumptions; unmeasured; do not order or construct from these values"
+    "envelopeLength": "25 m = annotated 7 + 18 m; includes building proxy",
+    "envelopeWidth": "10 m from annotated east–west envelope",
+    "planterCourtDepth": "7 m annotated north courtyard",
+    "bareCourtDepth": "8 m annotated south courtyard",
+    "planterApronDepth": "4 m annotated east portion of north courtyard",
+    "mainRouteWidth": "1.6 m interpreted as gray access route width",
+    "sideStripWidth": "2.1 m PROXY; blue E is orientation, not a measurement",
+    "mainRouteZ": "7.8 m PROXY; 4 m / 5 m / 1.6 m dimension chain does not close",
+    "allOtherValues": "Visual proxies, not survey values. Individual planter sizes and elevations remain unmeasured."
   },
-  "north": null,
-  "groundLevels": "Flattened for R0. Actual slopes, steps, thresholds and drain invert levels not measured.",
+  "north": [
+    -1,
+    0,
+    0
+  ],
+  "groundLevels": "R1 remains flat. Heights of thresholds, paving, drain grate/invert and actual falls are unknown.",
   "chronology": "Video used for continuity and visible current hardscape. Aerial and bare-plot photos appear to show an earlier state; dates unverified.",
   "features": {
     "zone1": {
-      "title": "01 · 有种植池的院子",
-      "confidence": "空间关系较高 / 尺寸低",
+      "title": "01 · 北侧主院",
+      "confidence": "院宽已标注 / 局部定位暂定",
       "observation": "两座平行水泥高池、池间与周边红砖路、门口灰色硬路、围栏及院门。池长轴沿通道前进方向延续，院门在正对房屋一侧的外围界。",
-      "assumption": "暂作主院候选；5.5 m 深 × 10 m 宽仅用于拼合草模，25 × 10 的范围未确认。",
-      "resolve": "测外墙到外侧围栏距离、院子沿墙宽度；在俯视图标出25 m与10 m的两端。",
+      "assumption": "北院 7 × 10 m，东侧红砖区进深 4 m；灰路宽按 1.6 m。通路中心 Z=7.8 m 暂定。",
+      "resolve": "补测“5 m”的两端及灰路距东西围栏的位置；不再重复索要已标注的外框尺寸。",
       "sources": [
         "ca9a49bbb4de96df32192650cb722010.jpeg",
         "7382_raw.mp4 00:38–00:57"
       ]
     },
     "zone2": {
-      "title": "02 · 裸土／草地院子",
-      "confidence": "空间关系较高 / 尺寸低",
+      "title": "02 · 南侧次院",
+      "confidence": "院宽已标注 / 局部定位暂定",
       "observation": "面向带阳台与大玻璃开口的立面；有围栏、院门或门洞及地面格栅口。",
-      "assumption": "4.5 m 深 × 10 m 宽是草模值；边界是否局部偏折待确认。",
-      "resolve": "院子两方向尺寸、门的位置、地面格栅到两条边界的距离。",
+      "assumption": "南院 8 × 10 m；墙角和门的位置仍为影像估值。",
+      "resolve": "只需核实门洞、格栅及首层开口相对墙角的位置。",
       "sources": [
         "631.jpeg",
         "632.jpeg",
@@ -59,8 +72,8 @@
       "title": "03 · 侧通道",
       "confidence": "连接关系高 / 净宽低",
       "observation": "沿山墙连接两院；方形踏步、碎石、窄种植带；局部已有金属拱架，墙上有百叶。",
-      "assumption": "全长暂取15 m、围栏到墙2.1 m；不是实测净通行宽。台阶、碎石及拱架数量简化。",
-      "resolve": "最窄处围栏到墙、踏步宽、凸柱和百叶位置；确认拱架是否保留。",
+      "assumption": "沿建筑长约 10 m；围栏至墙仍暂取 2.1 m。蓝色 E 是东方标记，不是通道宽。",
+      "resolve": "测墙到围栏的最窄净宽、凸柱及窗扇开启后的净宽。",
       "sources": [
         "645.jpeg",
         "7382_raw.mp4 00:18–00:21; 00:28–00:40"
@@ -70,8 +83,8 @@
       "title": "建筑轮廓与开口",
       "confidence": "存在性高 / 外形与位置低",
       "observation": "浅色石材感外墙、深灰窗框、外凸柱、上层阳台、百叶与外露管线。",
-      "assumption": "主体15 × 7.9 × 12.8 m是占位体量；背面和内部未重建。只示意辨认到的开口，不复制推测的窗格。",
-      "resolve": "首层平面或沿墙尺寸串、层高、门窗宽高与距墙角位置。",
+      "assumption": "建筑占位沿南北 25−7−8=10 m；东西进深暂7.9 m；高12.8 m。非实测建筑平面。",
+      "resolve": "补首层凹凸与开口尺寸、实际建筑高度。",
       "sources": [
         "1517.jpeg",
         "631.jpeg",
@@ -108,8 +121,8 @@
       "title": "现有铺装",
       "confidence": "材料类别较高 / 边界低",
       "observation": "红砖为主、夹少量蓝灰砖；侧通道浅灰方板＋碎石；门口另有灰色硬路。",
-      "assumption": "拼缝、砖块规格、灰路边界和铺装厚度为示意；未把裸土画成新增铺装。",
-      "resolve": "确认哪些材料一定保留；测一块砖／方板及各段路宽。",
+      "assumption": "红砖区按 7 × 4 m 区域校正；灰路宽1.6 m，位置暂定。砖尺寸与灰路细部未测。",
+      "resolve": "补灰路边界、铺装坡度和拆池后砖面是否连续。",
       "sources": [
         "ca9a49bbb4de96df32192650cb722010.jpeg",
         "1517.jpeg",
@@ -120,7 +133,7 @@
       "title": "围栏、矮墙与院门",
       "confidence": "存在性高 / 精确位置低",
       "observation": "主体是通透金属栏杆；种植池院的入口局部有浅色实墙及棕色门。围栏外可见公共步道与绿化。",
-      "assumption": "围栏高暂1.35 m，门洞约1.1 m；栏杆数量、围界直角化和门扇开启角度为示意。",
+      "assumption": "围栏高暂1.35 m；北院入口按1.6 m通路关系示意，门叶约1.48 m；南门约1.1 m。门扇开启方向及实际净宽未核实。",
       "resolve": "围栏高、院门净宽和开启方向；确认围栏外植物的归属。",
       "sources": [
         "638.jpeg",

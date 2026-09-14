@@ -1,56 +1,47 @@
-# Wuhan garden — existing-site review R0
+# Wuhan garden · 两院一径 R1
 
-This is the Phase 1–3 review package, NOT the final garden design.
-All local dimensions are assumptions. The supplied 25 × 10 m extent still needs confirmation.
-Open docs/review.html for the evidence, uncertainties, and measurements requested.
+Pure static Three.js garden study, no backend or CDN runtime dependency.
 
-## Run locally
+## Open locally
 
-From this folder:
+Unzip, enter this folder, and run:
 
     python -m http.server 8000
 
-Then open http://localhost:8000 . Use a static server rather than opening index.html as a file.
-No npm installation, backend, API key or CDN connection is needed.
+Open http://localhost:8000. Do not open index.html via file://: browser security prevents GLB/JSON loading that way.
 
-## Deploy
+## Deliverables
 
-Upload this folder's contents as static assets. Keep relative paths and filename case.
-Works at a root or a subdirectory, including GitHub Pages. No SPA rewrite is needed.
+- index.html / main.js / style.css: responsive Three.js viewer.
+- models/garden.glb: recommended B, Year 3, summer. Metres, Y up; +X south, +Z west.
+- models/existing-site.glb: clean calibrated existing site.
+- models/design-A-year*.glb, design-B-year1/5.glb, design-C-year*.glb: all alternatives and years.
+- docs/design.html: complete printable design document; includes site reconstruction, uncertainties, alternatives, climate sources, planting schedule, group quantities/spacing, privacy, drainage, seasons and annual care.
+- assets/plan-existing.svg, plan-A/B/C.svg: matching vector plans.
+- assets/masterplan-B.png: readable raster master plan.
+- plants.json / layouts.json / site-config.json: plant information, exact model coordinates and dimension evidence.
+- models/validation.json: scope and results of data/geometry verification; no browser/device test claim.
 
-## Files
+The outer dimensions follow the owner's annotated diagram. Local planter dimensions, passage width, door/window positions, levels and drainage are still explicit assumptions. The garden is a concept master plan, not a surveyed construction model.
 
-- index.html, main.js, style.css: responsive Three.js viewer.
-- models/existing-site.glb: the review model, metres, embedded PBR materials, named groups.
-- site-config.json: feature evidence and provisional dimensions; north is unknown.
-- docs/review.html: printable review document, with an uncertainty register.
-- assets/plan.svg: schematic review plan, NOT a survey.
-- assets/measurement-sheet.svg: mark-up sheet.
-- vendor/: Three.js r180 and compatible modules, local imports; MIT license included.
-- source/generate-model.mjs: reproducible GLB generator using the vendored exporter.
+## Viewer
 
-To regenerate the model after changing dimensions:
+Orbit by one finger/left drag, zoom with pinch/wheel, pan with two fingers/right drag or arrow keys when the canvas has focus. Select plants by tapping or use the text dropdown. Switch Existing/A/B/C, Year 1/3/5 and seasonal appearance. Shadows are optional; full building is hidden by default for a readable cutaway. Geometry loads only when selected. GLBs keep names, PBR materials and plant metadata; seasonal variants are controlled by tagged groups in this viewer. Generic GLB viewers show the default summer state.
 
-    node source/generate-model.mjs
+## Deploy elsewhere
 
-The plan.svg, measurement sheet, report dimension table, and main.js camera/label positions are
-review illustrations and must also be revised when geometry changes. They do not auto-update
-from site-config.json. The model is deliberately a editable approximation, not a photogrammetric survey.
+Upload this folder's static contents to a static host. index.html must be at its public root. GitHub Pages can publish this folder/repository root; on Netlify/Cloudflare Pages/Vercel select a static project and the folder containing index.html as output. No API keys or environment variables are required. All runtime imports and assets use relative local paths, including at a repository subpath. Hosting availability and account restrictions in mainland China have not been tested.
 
-## Current scope
+## Rebuild the models
 
-Clean existing geometry; selectable evidence notes; courtyard and top views; optional full-height
-building proxy; existing vegetation layer; optional illustrative shadows; touch orbit/zoom/pan.
-A/B/C landscape layouts, final plant schedules and Year 1/3/5 states are not yet authored:
-the user requested a geometry review before the landscape design is fixed. The final principal
-landscape model will be garden.glb after that review. No final design is hidden in this package.
+Node.js and Python 3 are needed only for rebuilding, not for hosting. Three.js is vendored.
 
-## Checks and limits
+    python source/prepare-design.py
+    node source/build-model.mjs
+    node source/build-designs.mjs
+    python source/build-docs-r1.py
+    node source/validate.mjs
 
-GLB export and actual GLTFLoader parsing, geometry bounds and required named objects verified.
-JavaScript syntax and local file references checked. A static geometry image was inspected.
-No browser or physical iPhone/iPad/Android test was performed. Lighting is for legibility,
-not solar analysis. Existing grades, underground drainage and retained plant identities are unknown.
+Edit the dimensions and planting definitions in source/prepare-design.py before rebuilding. It regenerates the JSON design inputs. The measured/assumed distinction must be maintained. Existing geometry is in source/build-model.mjs and proposed geometry in source/build-designs.mjs. Preview PNGs are supplied snapshots; updating GLBs does not automatically redraw those PNGs.
 
-Supplied photographs are included as project evidence, not as public stock assets. The hosted
-review keeps owner-only access. Choose the audience deliberately if deploying this package elsewhere.
+Materials are procedural solid PBR colors, with brick joints represented geometrically; no photographed texture is missing. Plant forms and growth are schematic. Three.js r180 is supplied under the MIT license in vendor/THREE-LICENSE.txt. Property photographs belong to the supplied evidence.
