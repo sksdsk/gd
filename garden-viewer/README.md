@@ -1,4 +1,4 @@
-# Wuhan garden · 两院一径 R1
+# garden · 两院一径 R1
 
 Pure static Three.js garden study, no backend or CDN runtime dependency.
 
